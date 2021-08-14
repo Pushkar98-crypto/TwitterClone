@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgbModal ,ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap'
 import { FormGroup,FormBuilder,Validators} from '@angular/forms'
 
+
 @Component({
   selector: 'app-front',
   templateUrl: './front.component.html',
@@ -56,8 +57,6 @@ export class FrontComponent implements OnInit {
       return  `with: ${reason}`;
     }
   }
-
-  
 
 get control()
 {

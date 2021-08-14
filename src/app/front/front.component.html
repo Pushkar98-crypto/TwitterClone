@@ -130,11 +130,6 @@
                             <a style= "color:gray; font-size:14px ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; cursor:pointer; " (click)="Change()">Create account with Phone Number </a>
                         </div>
 
-                    <ng-template #nextData class="secondStep">
-                        <p>Hello</p>
-                    </ng-template>
-
-
                         <br>
 
                         <br>
@@ -271,7 +266,11 @@
                 </div>
              
           </ng-template>
+          <ng-template #nextData class="secondStep">
+            <app-secon-step-modal></app-secon-step-modal>
+        </ng-template>
         
+       
 
        
     
