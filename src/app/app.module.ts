@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SeconStepModalComponent } from './secon-step-modal/secon-step-modal.component';
 import { MatIconModule} from '@angular/material/icon';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 
@@ -25,7 +26,8 @@ import { MatIconModule} from '@angular/material/icon';
     FormsModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    MatCheckboxModule
   
   ],
   providers: [],

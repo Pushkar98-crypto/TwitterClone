@@ -3,3 +3,23 @@
    font-weight: bold;
    font-size:20px;
 }
+.drop-text{
+    margin-left: 6%;
+    font-weight: bold;
+}
+.lower-text{
+    margin-left: 6%;
+    font-weight: bold;
+}
+.sub{
+    width:360px;
+    border-radius: 20px;
+    height:50px;
+    font-weight:bold;
+    background-color:#1A92DC;
+    border: none;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin-left:12%
+}
